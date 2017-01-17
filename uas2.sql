@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 16, 2017 at 03:31 AM
+-- Generation Time: Jan 17, 2017 at 04:00 AM
 -- Server version: 5.7.17-log
 -- PHP Version: 5.5.38
 
@@ -318,7 +318,37 @@ INSERT INTO `gameobjects_portals` (`ID`, `GUID`, `OwnerID`, `Name`, `Description
 (257, NULL, 1, 'Surface', 'Surface', 'purple', '01ce01aa', '428c0153', 'c1ee3a3b', 'c0bfd70a', '3f7ffede', '00000000', '00000000', 'bbc0beab', '211f0037', '43238252', '43143a1c', '4238051f', '3f69c6b6', '00000000', '00000000', 'bed0a8ce', 0, 0),
 (258, NULL, 1, 'Surface', 'Surface', 'purple', '01ce0170', '42704bb2', 'c28b65b0', 'c13feb86', 'bf7ffeb3', '00000000', '00000000', 'bbce6484', '211f0037', '43238252', '43143a1c', '4238051f', '3f69c6b6', '00000000', '00000000', 'bed0a8ce', 0, 0),
 (259, NULL, 1, 'Surface', 'Surface', 'purple', '01ce017c', '42a015e2', 'c28bcd8e', 'c13feb86', 'bf7fffff', '00000000', '00000000', 'b9a76776', '211f0037', '43238252', '43143a1c', '4238051f', '3f69c6b6', '00000000', '00000000', 'bed0a8ce', 0, 0),
-(260, NULL, 1, 'Halls of the Lost Light', 'Halls of the Lost Light', 'purple', '211f0100', '431a2e63', '431bf6d9', '4238051f', 'bf311425', '00000000', '00000000', '3f38e041', '01ce01c9', '42460000', 'c0d9999a', '3ba3d700', 'bb89bdd7', '00000000', '00000000', '3f7fff6c', 0, 0);
+(260, NULL, 1, 'Halls of the Lost Light', 'Halls of the Lost Light', 'purple', '211f0100', '431a2e63', '431bf6d9', '4238051f', 'bf311425', '00000000', '00000000', '3f38e041', '01ce01c9', '42460000', 'c0d9999a', '3ba3d700', 'bb89bdd7', '00000000', '00000000', '3f7fff6c', 0, 0),
+(261, NULL, 1, 'Small Icecave', 'Small Icecave', 'yellow', 'bed30018', '428818af', '432f7936', '431336f9', '3f7d9574', '00000000', '00000000', 'be0c5b58', '01e60250', '430c0000', 'c33c4ccd', '40c028f6', '3f7ffacd', '00000000', '00000000', 'bc4e5b06', 0, 0),
+(262, NULL, 1, 'Surface', 'Surface', 'purple', '01e60255', '43126f25', 'c3369beb', '40c028f6', '3f349f05', '00000000', '00000000', 'bf356aa9', 'bed3003c', '43294e24', '42b9bb70', '431811f4', 'be4fa785', '00000000', '00000000', 'bf7aae58', 0, 0),
+(263, NULL, 1, 'Surface', 'Surface', 'purple', '01e60107', 'bd73090a', 'c2fda9be', 'c18ff5c3', 'bc928088', '00000000', '00000000', '3f7ff585', 'bed3003c', '43294e24', '42b9bb70', '431811f4', 'be4fa785', '00000000', '00000000', 'bf7aae58', 0, 0),
+(264, NULL, 1, 'Catacombs of the Forgotten Portal', 'Catacombs of the Forgotten Portal', 'green', 'a8950019', '42a5cb1e', '41821764', '42a4e774', '3edf21a3', '00000000', '00000000', '3f666924', '02e602af', '428c0000', 'c2dc0000', '3ba3d700', '3f7ffaf5', '00000000', '00000000', '3c4b3bd5', 0, 0),
+(265, NULL, 1, 'Surface Portal', 'Surface Portal', 'purple', '02e602b0', '428bbe41', 'c2f2742b', '3ba3d700', '3bb29957', '00000000', '00000000', '3f7fff07', 'a8950032', '43236129', '423fb2e0', '426b201b', '3caa59f9', '00000000', '00000000', '3f7ff1d4', 0, 0),
+(266, NULL, 1, 'Surface Portal', 'Surface Portal', 'purple', '02e6025a', '428c57e2', 'c3e727b1', 'c0bfd70a', 'bb06e97b', '00000000', '00000000', '3f7fffdc', 'a8950032', '43236129', '423fb2e0', '426b201b', '3caa59f9', '00000000', '00000000', '3f7ff1d4', 0, 0),
+(267, NULL, 1, 'Cave', 'Cave', 'purple', '16430036', '43229a6e', '430a98fc', '41c00a3d', 'bf3757f0', '00000000', '00000000', 'bf32aa3a', '01bd0107', '41a40000', 'c29e999a', '3ba3d700', '3f7ff98e', '00000000', '00000000', 'bc65c7d4', 0, 0),
+(268, NULL, 1, 'Surface Portal', 'Surface Portal', 'purple', '01bd0100', '41202153', 'c28bf705', '3ba3d700', '3f3371ad', '00000000', '00000000', '3f3694bf', '17430007', '00000000', '43280000', '41c00a3d', '3e604346', '00000000', '00000000', '3f79c902', 0, 0),
+(269, NULL, 1, 'Cave', 'Cave', 'purple', 'cd960004', '41261982', '42bc22a6', '41f91e82', 'befb0374', '00000000', '00000000', 'bf5f1f98', '01f1010a', '41a00000', 'c2200000', '3ba3d700', '3f3998f7', '00000000', '00000000', 'bf305284', 0, 0),
+(270, NULL, 1, 'Surface', 'Surface', 'purple', '01f10100', '40996f81', 'c2201684', '3ba3d700', '3f3b59aa', '00000000', '00000000', '3f2e7576', 'cd960004', '41a00000', '42980000', '41f2b4e8', 'bf635b8d', '00000000', '00000000', '3eeb534d', 0, 0),
+(271, NULL, 1, 'Cave of Alabree', 'Cave of Alabree', 'blue', 'a7b30027', '42e0a98d', '43108b38', '41f00a3d', 'bf33e501', '00000000', '00000000', '3f36231e', '016201d2', '42700000', 'c1200000', '4140147a', 'bcef33d5', '00000000', '00000000', 'bf7fe40e', 0, 0),
+(272, NULL, 1, 'Surface', 'Surface', 'purple', '016201ec', '428abcc2', 'bfd2d6b9', '4140147a', '3f687188', '00000000', '00000000', 'bed68846', 'a7b3001e', '42b64be6', '430f2847', '41f00a3d', 'bf33e503', '00000000', '00000000', '3f36231d', 0, 0),
+(273, NULL, 1, 'Crater Lair', 'Crater Lair', 'green', '8fd70015', '4282bcd0', '42eddf95', '42e48aab', '3f7a3de1', '00000000', '00000000', 'be57f759', '018c0191', '42200000', 'c1a00000', '3ba3d700', 'bb89bf37', '00000000', '00000000', 'bf7fff6c', 0, 0),
+(274, NULL, 1, 'Surface', 'Surface', 'purple', '018c0195', '42439f94', 'c13db101', '3ba3d700', '3f6f7f21', '00000000', '00000000', 'beb4db94', '8fd80011', '427e68a5', '41becd57', '42febc02', '3caa59df', '00000000', '00000000', '3f7ff1d4', 0, 0),
+(275, NULL, 1, 'Deeper Catacombs', 'Deeper Catacombs', 'purple', '018c011c', '4197a047', 'c2712978', 'c18ff5c3', 'bf3da737', '00000000', '00000000', 'bf2bf3d8', '57510251', '4078e1d3', 'c2b3f974', '3ba3d700', '3f7ff35b', '00000000', '00000000', 'bca0ed4f', 0, 0),
+(276, NULL, 1, 'Catacombs Opposition', 'Catacombs Opposition', 'purple', '57510109', '435c1c40', 'c0e33b4e', 'c1eff5c3', 'bf7ffff1', '00000000', '00000000', 'baad6114', '5e4604e5', '43521c19', 'c2c7c7dd', '3ba3d700', '3f7ffacd', '00000000', '00000000', 'bc4e5a7c', 0, 0),
+(277, NULL, 1, 'Forbidden Crypts Portal', 'Forbidden Crypts Portal', 'green', '83870100', '420fda2b', '42ba4983', '429f51ec', '3c86378f', '00000000', '00000000', '3f7ff734', '013d02d5', '42700000', 'c1200000', 'c18ff5c3', 'bb89beb7', '00000000', '00000000', 'bf7fff6c', 0, 0),
+(278, NULL, 1, 'Surface Portal', 'Surface Portal', 'purple', '013d02d2', '42700000', 'bdd788d7', 'c18ff5c3', '3f800000', '00000000', '00000000', '336fb337', '8387000e', '423028b6', '4307038e', '42ac0290', '3f800000', '00000000', '00000000', '00000000', 0, 0),
+(279, NULL, 1, 'Surface Portal', 'Surface Portal', 'purple', '013d010b', '4298bcdb', 'c3a51035', 'c23ffae1', '3f3a5e7f', '00000000', '00000000', 'bf2f81ae', '8387000e', '423028b6', '4307038e', '42ac0290', '3f800000', '00000000', '00000000', '00000000', 0, 0),
+(280, NULL, 1, 'Mountain Halls', 'Mountain Halls', 'green', '388c0102', '42d7faf2', '416f005f', '429751ec', '3c86377b', '00000000', '00000000', '3f7ff734', '019201a8', '419ec83f', 'c1ef322b', '3ba3d700', '3ad630ed', '00000000', '00000000', 'bf7fffea', 0, 0),
+(281, NULL, 1, 'Surface', 'Surface', 'purple', '019201a9', '41ba22ce', 'c21cee18', '3ba3d700', '3f35b1c3', '00000000', '00000000', 'bf34577e', '388c003a', '43326b7d', '4231f643', '42a40290', '3f6f3ac9', '00000000', '00000000', '3eb643fd', 0, 0),
+(282, NULL, 1, 'Surface', 'Surface', 'purple', '01920100', '41825e7b', 'c1a0345b', 'c1bff5c3', 'bf360ce4', '00000000', '00000000', 'bf33fb7f', '388c003a', '43326666', '42320000', '42a40290', '3f707abb', '00000000', '00000000', '3eaf904d', 0, 0),
+(283, NULL, 1, 'Mysterious Cave Portal', 'Mysterious Cave Portal', 'green', '87890029', '42f472ae', '41775b39', '42906173', 'bf42a69e', '00000000', '00000000', 'bf264625', '014a0141', 'bf99999a', 'c23e6666', '3ba3d700', 'bf2dd1c6', '00000000', '00000000', '3f3bf192', 0, 0),
+(284, NULL, 1, 'Surface Portal', 'Surface Portal', 'purple', '014a0147', '411f6a8f', 'c2718e64', '3ba3d700', '3cc6556d', '00000000', '00000000', '3f7fecca', '87890029', '430ea011', '41bf8ad5', '42978acf', '3ec565e8', '00000000', '00000000', 'bf6c3567', 0, 0),
+(285, NULL, 1, 'Mnemosyne Collection Site', 'Mnemosyne Collection Site', 'purple', '937c003b', '433bbda2', '42444597', '4210051f', 'bf33e500', '00000000', '00000000', '3f36231f', '029d0100', '00000000', '00000000', '3ba3d700', '3caa59f7', '00000000', '00000000', 'bf7ff1d4', 0, 0),
+(286, NULL, 1, 'Exit', 'Exit', 'purple', '029d0103', '40a477cf', '3ff95b9c', '3ba3d700', '3f7ffae1', '00000000', '00000000', '3c4ccb9c', '947c0002', '00000000', '42400000', '4210051f', 'bb89bf5f', '00000000', '00000000', 'bf7fff6c', 0, 0),
+(287, NULL, 1, 'Small Mnemosyne Collection Site', 'Small Mnemosyne Collection Site', 'purple', '029d0102', '409fafa0', 'c1b0fd39', '3ba3d700', '3c503392', '00000000', '00000000', 'bf7ffab5', '029d0106', '42480000', 'c2480000', '3ba3d700', '3caa59ee', '00000000', '00000000', '3f7ff1d4', 0, 0),
+(288, NULL, 1, 'Exit', 'Exit', 'purple', '029d0109', '425c4a0c', 'c23f0309', '3ba3d700', 'bf7ffdaf', '00000000', '00000000', 'bc09bf60', '947c0002', '00000000', '42400000', '4210051f', 'bb89bf5f', '00000000', '00000000', 'bf7fff6c', 0, 0),
+(289, NULL, 1, 'Large Mnemosyne Collection Site', 'Large Mnemosyne Collection Site', 'purple', '029d010b', '425c26f3', 'c290d620', '3ba3d700', 'bb89bf0f', '00000000', '00000000', '3f7fff6c', '029d010c', '42c80000', '00000000', '3ba3d700', '3caa59db', '00000000', '00000000', 'bf7ff1d4', 0, 0),
+(290, NULL, 1, 'Exit', 'Exit', 'purple', '029d0111', '42d245e8', 'c1b4b3a6', '3ba3d700', 'bca0eb9e', '00000000', '00000000', 'bf7ff35b', '947c0002', '00000000', '42400000', '4210051f', 'bb89bf5f', '00000000', '00000000', 'bf7fff6c', 0, 0);
 
 --
 -- Indexes for dumped tables
@@ -338,7 +368,7 @@ ALTER TABLE `gameobjects_portals`
 -- AUTO_INCREMENT for table `gameobjects_portals`
 --
 ALTER TABLE `gameobjects_portals`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=261;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=291;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
